@@ -1,44 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+   <img src="./readme/logo.png" alt="Proffy" width="280"/>
+</p>
 
-## Available Scripts
+<p align="center">	
+   <a href="https://www.linkedin.com/in/vin%C3%ADcius-fernandes-landim-3a904486/">
+      <img alt="Vinícius Fernandes Landim" src="https://img.shields.io/badge/-Vin%C3%ADciusLandim-0072b1?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  
+  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/omnistack/edicao/2">
+    <img src="https://img.shields.io/badge/Proffy-NLW 2.0-130c25?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+  </a>
+  <a href="https://github.com/viniciusraja/proffy-web-frontend/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/viniciusraja/proffy-web-frontend?color=130c25">
+  </a> 
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-130c25">
+  <a href="https://github.com/viniciusraja/proffy-web-frontend/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/viniciusraja/proffy-web-frontend?color=130c25&logo=github">
+  </a>
+</p>
 
-In the project directory, you can run:
+> :rocket: Project made to connect teachers to students, Next Level Week #2
 
-### `yarn start`
+<div align="center">
+  <sub>The NLW #2 project PROFFY. Built with ❤︎ by
+    <a href="https://github.com/viniciusraja">Vinícius Fernandes Landim</a> and
+    <a href="https://github.com/viniciusraja/Proffy/graphs/contributors">
+      contributors
+    </a>
+  </sub>
+</div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# :pushpin: Table of Contents
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- * [Demo Website](#eyes-demo-website)    -->
+* [Technologies](#computer-technologies)
+* [Features](#rocket-features)
+* [How to Run](#construction_worker-how-to-run)
+* [Found a bug? Missing a specific feature?](#bug-issues)
+* [Contributing](#tada-contributing)
+* [License](#closed_book-license)
 
-### `yarn test`
+<h2 align="left"> 📥 Layout available for download at: </h2>
+<p align="center">
+    <a title="Download Figma's Web UI " href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/17c8198d-4e67-4838-b18b-440cd2fdf37e/Proffy_Web.fig?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200804T053236Z&X-Amz-Expires=86400&X-Amz-Signature=ba4ac9b73aca8c78671e5a872403d63b58e4ad69e3fd2d50b0ca57797173906d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Proffy_Web.fig%22">
+        <img alt="Direct Download" src="https://img.shields.io/badge/Download Web-black?style=flat-square&logo=figma&logoColor=fff" width="150px"/>
+    </a>
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Web Screenshot
+<div style="display:flex;justify-content:center;align-items:center">
+   <img  src="./readme/proffy-web.gif" width="800px">
+</div>
 
-### `yarn build`
+<!-- # :eyes: Demo Website
+You can acess the website at:     
+👉  demo:  -->
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# :computer: Technologies
+This project was made using the follow technologies:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)      
+* [Expo](https://expo.io/)       
+* [Express](https://expressjs.com/)      
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# :rocket: Features
 
-### `yarn eject`
+* Website to sign up teachers and students.
+* App to connect teachers and students.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# :construction_worker: How to run
+```bash
+# Clone Repository
+$ git clone https://github.com/viniciusraja/proffy-web-frontend.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 💻 Run Web Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Install Dependencies
+$ yarn install
 
-## Learn More
+# Run Aplication
+$ yarn start
+```
+Go to http://localhost:3000/ to see the result.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# :bug: Issues
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to **file a new issue** with a respective title and description on the the [Proffy](https://github.com/viniciusraja/proffy-web-frontend/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+
+# :tada: Contributing
+
+Check out the [contributing](./CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+
+# :closed_book: License
+
+Released in 2020 :closed_book: License
+
+Made with love by [Vinícius Fernandes Landim](https://github.com/viniciusraja) 🚀.
+This project is under the [MIT license](./LICENSE).
+
+
+Give a ⭐️ if this project helped you!
